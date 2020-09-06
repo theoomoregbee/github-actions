@@ -3,9 +3,9 @@ author: Theophilus
 description: GitHub Action playing around github actions
 
 runs:
-    using: node12
-    main: ./index.js
-  
-  branding:
-    icon: check
-    color: green
+  using: node12
+  main: ./index.js
+
+branding:
+  icon: check
+  color: green
