@@ -1,0 +1,13 @@
+name: Run Our own action
+on:
+  pull_request:
+    branch:
+      - master
+
+jobs:
+  justRun:
+    name: Run
+    runs-on: ubuntu-latest
+    steps:
+      - name: Echo the greeting's time
+        uses: ./
