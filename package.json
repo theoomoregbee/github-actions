@@ -1,0 +1,22 @@
+{
+  "name": "github-actions",
+  "version": "1.0.0",
+  "description": "This is a test repo to play around or learn new things about github actions",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/theoomoregbee/github-actions.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/theoomoregbee/github-actions/issues"
+  },
+  "homepage": "https://github.com/theoomoregbee/github-actions#readme",
+  "dependencies": {
+    "@trilom/file-changes-action": "1.2.1"
+  }
+}
