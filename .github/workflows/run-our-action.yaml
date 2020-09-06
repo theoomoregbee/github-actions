@@ -9,5 +9,7 @@ jobs:
     name: Run
     runs-on: ubuntu-latest
     steps:
+      - name: Check out Git repository
+        uses: actions/checkout@v2
       - name: Echo the greeting's time
         uses: ./
